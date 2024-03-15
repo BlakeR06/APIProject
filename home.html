@@ -1,0 +1,157 @@
+<!-- cd "C:\Users\bmrichardson\Desktop\Coding 23-24\Web Developement\API Project"
+C:\Python385\python.exe -m http.server -->
+<!-- http://localhost:8000/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="stylesheet" href="servicesStyle.css">
+</head>
+<body>
+
+    <div id="fadeElement"></div>
+    <div id="watermarkLogo"></div>
+
+    <div class="topFade"></div>
+    <div class="bottomFade"></div>
+
+    <div class="topBar" id="topBar">
+        <div class="topBarItemContainer">
+            <div class="topBarItem">Home</div>
+        </div>
+        <div class="topBarItemContainer">
+            <div class="topBarItem">Services</div>
+        </div>
+        <div class="topBarItemContainer">
+            <div class="topBarItem">Contact</div>
+        </div>
+        <div class="topBarItemContainer">
+            <div class="topBarItem">About</div>
+        </div>
+    </div>
+    
+    <div class="homeContainer">
+        <div class="homeContainerContent">
+            <div class="ElevatedDetailLogo"></div>
+            <div class="scheduleNowButton" id="scheduleNowButton">Schedule a Detail Now</div>
+        </div>
+    </div>
+
+    <div class="containerBottomBorder"></div>
+
+    <div class="servicesContainer">
+        <div class="servicesContentContainer">
+            <div class="center">
+                <div class="title">Services</div>
+            </div>
+            <div class="center">
+                <div class="featuredPackagesText">Featured Packages</div>
+            </div>
+
+            <div class="packagesContainer">
+
+                <div class="package" id="featuredPackage1">
+                    <div class="packageTitle">First Timer1</div>
+                    <div class="packageText">
+                        <div class="packageDescription">Indulge in automotive luxury with our First Timer Package, designed for those seeking an unforgettable introduction to car detailing. Experience a meticulous blend of precision and care, leaving your vehicle refreshed and radiant like never before.</div>
+                        <div class="packageHeader">Package Contents</div>
+                        <div class="listOfServices">
+                            <div class="packageService">Comprehensive Exterior Wash</div>
+                            <div class="packageService">Interior Vacuuming</div>
+                            <div class="packageService">Window Cleaning</div>
+                            <div class="packageService">Dashboard and Trim Detailing</div>
+                            <div class="packageService">Fragrance Refresh</div>
+                        </div>
+                        <div class="packageScheduleButton">Schedule Now</div>
+                    </div>
+                </div>
+
+                <div class="package" id="featuredPackage2">
+                    <div class="packageTitle">First Timer2</div>
+                    <div class="packageText">
+                        <div class="packageDescription">Indulge in automotive luxury with our First Timer Package, designed for those seeking an unforgettable introduction to car detailing. Experience a meticulous blend of precision and care, leaving your vehicle refreshed and radiant like never before.</div>
+                        <div class="packageHeader">Package Contents</div>
+                        <div class="listOfServices">
+                            <div class="packageService">Comprehensive Exterior Wash</div>
+                            <div class="packageService">Interior Vacuuming</div>
+                            <div class="packageService">Window Cleaning</div>
+                            <div class="packageService">Dashboard and Trim Detailing</div>
+                            <div class="packageService">Fragrance Refresh</div>
+                        </div>
+                        <div class="packageScheduleButton">Schedule Now</div>
+                    </div>
+                </div>
+
+                <div class="package" id="featuredPackage3">
+                    <div class="packageTitle">First Timer3</div>
+                    <div class="packageText">
+                        <div class="packageDescription">Indulge in automotive luxury with our First Timer Package, designed for those seeking an unforgettable introduction to car detailing. Experience a meticulous blend of precision and care, leaving your vehicle refreshed and radiant like never before.</div>
+                        <div class="packageHeader">Package Contents</div>
+                        <div class="listOfServices">
+                            <div class="packageService">Comprehensive Exterior Wash</div>
+                            <div class="packageService">Interior Vacuuming</div>
+                            <div class="packageService">Window Cleaning</div>
+                            <div class="packageService">Dashboard and Trim Detailing</div>
+                            <div class="packageService">Fragrance Refresh</div>
+                        </div>
+                        <div class="packageScheduleButton">Schedule Now</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="packageScrollContainer">
+                <div class="leftArrow" id="leftArrow"></div>
+                <div class="scrollDot" id="scrollDot1">.</div>
+                <div class="scrollDot" id="scrollDot2">.</div>
+                <div class="scrollDot" id="scrollDot3">.</div>
+                <div class="rightArrow" id="rightArrow"></div>
+            </div>
+
+            <a href="order.html"><div class="viewOtherPackagesButton">View Other Packages</div></a>
+
+        </div>
+        <div class="servicesContainerFade"></div>
+    </div>
+
+    <div class="containerBottomBorder"></div>
+
+    <div class="aboutContainer">
+
+        <div class="aboutTopFade"></div>
+
+        <div class="aboutContentContainer">
+            <div class="center">
+                <div class="title">About</div>
+            <div class="center">
+                <div class="aboutText">"Elevated Detail is more than a car detailing service; we're passionate automotive enthusiasts committed to redefining vehicle care. With careful attention to detail and personalized service, we elevate your driving experience. From restoring classic cars to protecting modern vehicles, our tailored solutions ensure your investment shines. Trusted by enthusiasts across Southern Indiana, Elevated Detail promises brilliance and beauty for your ride."</div>
+            </div>
+
+            <div class="teamContainer">
+                <div class="memberContainer">
+                    <div class="memberImg" id="member1Img"></div>
+                    <div class="memberName">Wyatt Moore</div>
+                    <div class="memberText">"My name is Wyatt Moore, CEO and founder of Elevated Detail. I currently attend Providence High School as well as Prosser Career Education Center where I am a part of the automotive group. Beyond the world of cars, I've been a member of the SIGS Sportsplex men's gymnastics team for the past decade. My passion for both automotive craftsmanship and gymnastics reflects the commitment and attention to detail that define the essence of Elevated Detail."</div>
+                </div>
+                <div class="memberContainer">
+                    <div class="memberImg" id="member2Img"></div>
+                    <div class="memberName">Jonathan Roberts</div>
+                    <div class="memberText">My name is Wyatt Moore, CEO and founder of Elevated Detail. I currently attend Providence High School as well as Prosser Career Education Center where I am a part of the automotive group. Beyond the world of cars, I've been a member of the SIGS Sportsplex men's gymnastics team for the past decade. My passion for both automotive craftsmanship and gymnastics reflects the commitment and attention to detail that define the essence of Elevated Detail.</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="homeLoad.js"></script>
+<script src="homeParalax.js"></script>
+<script src="packagesScroll.js"></script>
+</html>
